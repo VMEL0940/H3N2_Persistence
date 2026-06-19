@@ -1,0 +1,225 @@
+Window_Scheme,Window_Type,Window_Size,Train_Start_Index,Train_End_Index,Train_Periods,Train_Range_Label,Test_Index,Test_Period,Feature_Scheme,Predictors,N_Predictors,Train_N,Train_Pos,Train_Neg,Test_N,Test_Pos,Test_Neg,Model,Tune_CV_AUC,Train_AUC,Test_AUC,Error,Has_Test_AUC,Run_Status,Feature_Display,Model_Group,Model_Display
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,Logistic,NA,0.7226160077485252,0.7037037037037037,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,Ridge,0.7189561850998412,0.7204147221977635,0.6814814814814815,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,Lasso,0.7186014504328755,0.7236946376683984,0.7037037037037037,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,SVM_Radial,0.7352722096471969,0.8631020515981332,0.8074074074074074,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,RandomForest,0.7203584951376569,1,0.837037037037037,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,XGBoost,0.7438964678906358,0.8915646737694813,0.8555555555555555,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,DNN,0.6977946195318465,0.8147177951923923,0.7555555555555555,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,Logistic,NA,0.6893435766487629,0.8888888888888888,NA,TRUE,OK,"HA dN
+only",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,Ridge,NA,0.6893435766487629,0.8888888888888888,NA,TRUE,OK,"HA dN
+only",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,Lasso,NA,0.6893435766487629,0.8888888888888888,NA,TRUE,OK,"HA dN
+only",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,SVM_Radial,0.696187087346579,0.684170555604473,0.837037037037037,NA,TRUE,OK,"HA dN
+only",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,RandomForest,0.7245377085075144,0.9865941709958616,0.4444444444444445,NA,TRUE,OK,"HA dN
+only",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,XGBoost,0.6797419740750559,0.7038940741392973,0.5,NA,TRUE,OK,"HA dN
+only",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,DNN,0.7532325851476489,0.6893435766487629,0.8888888888888888,NA,TRUE,OK,"HA dN
+only",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,Logistic,NA,0.7439244518798979,0.6962962962962963,NA,TRUE,OK,All dN,ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,Ridge,0.6288570633124202,0.6727568900237739,0.725925925925926,NA,TRUE,OK,All dN,ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,Lasso,0.6328218144402074,0.722043673505327,0.7703703703703704,NA,TRUE,OK,All dN,ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,SVM_Radial,0.770425445110581,0.8260103900677996,0.5777777777777777,NA,TRUE,OK,All dN,ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,RandomForest,0.6767213729831811,1,0.7037037037037037,NA,TRUE,OK,All dN,ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,XGBoost,0.7324466311960321,0.9347098705644096,0.6370370370370371,NA,TRUE,OK,All dN,ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,DNN,0.7210166553944592,0.7882143171612221,0.5925925925925926,NA,TRUE,OK,All dN,ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,Logistic,NA,0.8093026327375187,0.7703703703703704,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,Ridge,0.6321434852872203,0.6612001408822753,0.7481481481481481,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,Lasso,0.6756368230727924,0.6897508144756538,0.8518518518518519,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,SVM_Radial,0.7173775733486499,0.992999911948578,0.5333333333333333,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,RandomForest,0.7152744888705361,1,0.7999999999999999,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,XGBoost,0.7036335238279736,0.9979528044377917,0.8148148148148148,NA,TRUE,OK,"All dN
++ all dS",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,DNN,0.7299232994260804,0.8334727480848816,0.7333333333333333,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,Logistic,NA,0.760095238095238,0.6405228758169934,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,Ridge,0.7463470141489804,0.7602619047619048,0.6470588235294118,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,Lasso,0.8295345251002036,0.750452380952381,0.4640522875816993,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,SVM_Radial,0.7522256992356047,0.8989761904761905,0.5490196078431372,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,RandomForest,0.7386484410933701,1,0.7777777777777778,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,XGBoost,0.7529341749348402,0.9497976190476191,0.8137254901960784,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,DNN,0.7427266766322799,0.8270000000000001,0.7385620915032679,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,Logistic,NA,0.750452380952381,0.4640522875816993,NA,TRUE,OK,"HA dN
+only",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,Ridge,NA,0.750452380952381,0.4640522875816993,NA,TRUE,OK,"HA dN
+only",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,Lasso,NA,0.750452380952381,0.4640522875816993,NA,TRUE,OK,"HA dN
+only",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,SVM_Radial,0.7788072954311497,0.7389523809523809,0.6078431372549019,NA,TRUE,OK,"HA dN
+only",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,RandomForest,0.6840197012506297,0.9875238095238095,0.545751633986928,NA,TRUE,OK,"HA dN
+only",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,XGBoost,0.7316106032481329,0.9071785714285714,0.6241830065359476,NA,TRUE,OK,"HA dN
+only",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,DNN,0.8259686699191799,0.750452380952381,0.4640522875816993,NA,TRUE,OK,"HA dN
+only",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,Logistic,NA,0.7719761904761905,0.738562091503268,NA,TRUE,OK,All dN,ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,Ridge,0.7776992711960926,0.7373809523809524,0.9477124183006536,NA,TRUE,OK,All dN,ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,Lasso,0.8313863769520555,0.7559761904761905,0.43790849673202614,NA,TRUE,OK,All dN,ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,SVM_Radial,0.7561601315241913,0.8188095238095238,0.9019607843137255,NA,TRUE,OK,All dN,ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,RandomForest,0.7261687350789583,1,0.9150326797385621,NA,TRUE,OK,All dN,ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,XGBoost,0.730765203035679,0.9694761904761905,0.869281045751634,NA,TRUE,OK,All dN,ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,DNN,0.7711707678997743,0.8294047619047619,0.7450980392156863,NA,TRUE,OK,All dN,ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,Logistic,NA,0.8175714285714286,0.5947712418300654,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,Ridge,0.79549754145038,0.7110238095238095,0.9869281045751634,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,Lasso,0.812247437413759,0.7577142857142857,0.6732026143790849,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,SVM_Radial,0.7449716773988655,0.9812857142857143,0.9477124183006536,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,RandomForest,0.7093069313029765,1,0.8594771241830066,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,XGBoost,0.7296844541910331,0.9521428571428572,0.6666666666666666,NA,TRUE,OK,"All dN
++ all dS",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,DNN,0.7310747804279738,0.8422619047619048,0.8169934640522876,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,Logistic,NA,0.796363012523589,0.685,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,Ridge,0.8138689190111947,0.7679827463666887,0.7125,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,Lasso,0.8254004604667282,0.7983481606744602,0.5125,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,SVM_Radial,0.7859957689626872,0.8292772590250717,0.6025,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,RandomForest,0.8068975313366032,1,0.39,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,XGBoost,0.7948429401328834,0.9245153542631669,0.5775,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,DNN,0.7921319648169407,0.8302330710977134,0.6725,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,Logistic,NA,0.773031394750386,0.60375,NA,TRUE,OK,"HA dN
+only",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,Ridge,NA,0.773031394750386,0.60375,NA,TRUE,OK,"HA dN
+only",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,Lasso,NA,0.773031394750386,0.60375,NA,TRUE,OK,"HA dN
+only",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,SVM_Radial,0.8317563249756175,0.7624194299438767,0.60375,NA,TRUE,OK,"HA dN
+only",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,RandomForest,0.6252172851531045,0.9913976913462246,0.41500000000000004,NA,TRUE,OK,"HA dN
+only",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,XGBoost,0.7414613795449186,0.8518613827414651,0.63125,NA,TRUE,OK,"HA dN
+only",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,DNN,0.7502350969956285,0.773031394750386,0.60375,NA,TRUE,OK,"HA dN
+only",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,Logistic,NA,0.791289856138029,0.5225000000000001,NA,TRUE,OK,All dN,ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,Ridge,0.8381036217627862,0.7780555351322207,0.55,NA,TRUE,OK,All dN,ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,Lasso,0.83095601602228375,0.7955787564639855,0.505,NA,TRUE,OK,All dN,ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,SVM_Radial,0.7526704557899117,0.8342768914050437,0.5525,NA,TRUE,OK,All dN,ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,RandomForest,0.81616899798884,1,0.64125,NA,TRUE,OK,All dN,ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,XGBoost,0.8200758790933418,0.9216356640443104,0.53125,NA,TRUE,OK,All dN,ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,DNN,0.837845913712091,0.8319976472318211,0.505,NA,TRUE,OK,All dN,ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,Logistic,NA,0.8418988799843149,0.515,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,Ridge,0.8330567505272691,0.755704237433522,0.5525,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,Lasso,0.8252915924238149,0.7901134720486239,0.5575,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,SVM_Radial,0.7741928304273941,0.8800333308825331,0.5525,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,RandomForest,0.7472725173254794,1,0.625,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,XGBoost,0.7811731079185075,0.8216185084430067,0.54,NA,TRUE,OK,"All dN
++ all dS",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,DNN,0.7377020339642526,0.9190990858515306,0.7162499999999999,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,Logistic,NA,0.7798725328947368,0.9090909090909091,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,Ridge,0.7557995786033711,0.7551603618421052,1,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,Lasso,0.730010391583534,0.7799342105263158,0.9090909090909091,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,SVM_Radial,0.702620040706341,0.8141858552631579,0.9090909090909091,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,RandomForest,0.7485622348354547,1,0.9090909090909091,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,XGBoost,0.7004469814241486,0.8843544407894737,0.9090909090909091,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,DNN,0.7780727554179566,0.8070106907894737,0.9090909090909091,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,Logistic,NA,0.7584292763157895,0.9090909090909091,NA,TRUE,OK,"HA dN
+only",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,Ridge,NA,0.7584292763157895,0.9090909090909091,NA,TRUE,OK,"HA dN
+only",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,Lasso,NA,0.7584292763157895,0.9090909090909091,NA,TRUE,OK,"HA dN
+only",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,SVM_Radial,0.7462706040018346,0.7484375,1,NA,TRUE,OK,"HA dN
+only",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,RandomForest,0.510813338493292,0.9884868421052632,0.8181818181818182,NA,TRUE,OK,"HA dN
+only",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,XGBoost,0.6728946293429653,0.8580489309210526,0.9090909090909091,NA,TRUE,OK,"HA dN
+only",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,DNN,0.7000850318197455,0.7584292763157895,0.9090909090909091,NA,TRUE,OK,"HA dN
+only",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,Logistic,NA,0.7778577302631579,0.9090909090909091,NA,TRUE,OK,All dN,ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,Ridge,0.7327412280701754,0.7493215460526316,0.9090909090909091,NA,TRUE,OK,All dN,ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,Lasso,0.7167106696479761,0.7725123355263158,0.9090909090909091,NA,TRUE,OK,All dN,ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,SVM_Radial,0.6816670249971333,0.8093544407894737,0.8181818181818182,NA,TRUE,OK,All dN,ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,RandomForest,0.7668413527691779,1,0.8181818181818182,NA,TRUE,OK,All dN,ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,XGBoost,0.7395752350647862,0.9853412828947369,0.6363636363636364,NA,TRUE,OK,All dN,ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,DNN,0.7206291566334136,0.8414884868421053,0.9090909090909091,NA,TRUE,OK,All dN,ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,Logistic,NA,0.8055098684210527,0.9090909090909091,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Logistic Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,Ridge,0.7360548532278408,0.7344572368421053,0.9090909090909091,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Ridge Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,Lasso,0.745614393418186,0.7649671052631579,0.9090909090909091,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Lasso Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,SVM_Radial,0.6703134674922601,0.8108141447368421,0.7272727272727273,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Support Vector Machine (SVC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,RandomForest,0.7074777476780185,1,0.7727272727272727,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Random Forest (RFC)
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,XGBoost,0.7104447956083018,0.877600740131579,0.7272727272727273,NA,TRUE,OK,"All dN
++ all dS",ML/DL,XGBoost Classifier
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,DNN,0.7006135334250659,0.8658305921052631,0.9090909090909091,NA,TRUE,OK,"All dN
++ all dS",ML/DL,Deep Neural Network (DNN)
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,636,82,554,24,9,15,Regression_GLMM,NA,0.699084265210883,0.807407407407407,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",Regression,GLMM Baseline
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,2_HA_dN_Only,HA,1,636,82,554,24,9,15,Regression_GLMM,NA,0.689343576648763,0.888888888888889,NA,TRUE,OK,"HA dN
+only",Regression,GLMM Baseline
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,636,82,554,24,9,15,Regression_GLMM,NA,0.705225851897508,0.762962962962963,NA,TRUE,OK,All dN,Regression,GLMM Baseline
+rolling_width_10,rolling,10,1,10,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17",Mos99-Kan17 -> HK19,11,HK19,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,636,82,554,24,9,15,Regression_GLMM,NA,0.710442898652813,0.822222222222222,NA,TRUE,OK,"All dN
++ all dS",Regression,GLMM Baseline
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,584,84,500,26,9,17,Regression_GLMM,NA,0.760261904761905,0.928104575163399,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",Regression,GLMM Baseline
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,2_HA_dN_Only,HA,1,584,84,500,26,9,17,Regression_GLMM,NA,0.750452380952381,0.464052287581699,NA,TRUE,OK,"HA dN
+only",Regression,GLMM Baseline
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,584,84,500,26,9,17,Regression_GLMM,NA,0.756285714285714,0.712418300653595,NA,TRUE,OK,All dN,Regression,GLMM Baseline
+rolling_width_10,rolling,10,2,11,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19",Fuj02-HK19 -> Cam20,12,Cam20,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,584,84,500,26,9,17,Regression_GLMM,NA,0.776261904761905,0.431372549019608,NA,TRUE,OK,"All dN
++ all dS",Regression,GLMM Baseline
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,556,87,469,58,8,50,Regression_GLMM,NA,0.793127956277725,0.6675,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",Regression,GLMM Baseline
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,2_HA_dN_Only,HA,1,556,87,469,58,8,50,Regression_GLMM,NA,0.773031394750386,0.60375,NA,TRUE,OK,"HA dN
+only",Regression,GLMM Baseline
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,556,87,469,58,8,50,Regression_GLMM,NA,0.784084503590422,0.515,NA,TRUE,OK,All dN,Regression,GLMM Baseline
+rolling_width_10,rolling,10,3,12,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20",Cal04-Cam20 -> Dar21,13,Dar21,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,556,87,469,58,8,50,Regression_GLMM,NA,0.826189250790383,0.5125,NA,TRUE,OK,"All dN
++ all dS",Regression,GLMM Baseline
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA,"HA,PB1,PB2,NA_seg,HA_x_PB1",5,607,95,512,12,1,11,Regression_GLMM,NA,0.773108552631579,0.909090909090909,NA,TRUE,OK,"Selected dN
+HA × PB1 + PB2 + NA",Regression,GLMM Baseline
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,2_HA_dN_Only,HA,1,607,95,512,12,1,11,Regression_GLMM,NA,0.758429276315789,0.909090909090909,NA,TRUE,OK,"HA dN
+only",Regression,GLMM Baseline
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,3_All_dN_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS",8,607,95,512,12,1,11,Regression_GLMM,NA,0.758511513157895,0.909090909090909,NA,TRUE,OK,All dN,Regression,GLMM Baseline
+rolling_width_10,rolling,10,4,13,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21",Wis05-Dar21 -> TH22,14,TH22,4_All_dN_All_dS_PB2_to_NS,"PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16,607,95,512,12,1,11,Regression_GLMM,NA,0.776850328947368,0.909090909090909,NA,TRUE,OK,"All dN
++ all dS",Regression,GLMM Baseline

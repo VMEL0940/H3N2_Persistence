@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='590.40pt' height='381.60pt' viewBox='0 0 590.40 381.60'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1OTAuNDB8MC4wMHwzODEuNjA='>
+    <rect x='0.00' y='0.00' width='590.40' height='381.60' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1OTAuNDB8MC4wMHwzODEuNjA=)'>
+<rect x='0.00' y='-0.000000000000057' width='590.40' height='381.60' style='stroke-width: 1.26; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNDIuMDR8NTgzLjkyfDQzLjA2fDMzMy45NQ=='>
+    <rect x='42.04' y='43.06' width='541.88' height='290.89' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDIuMDR8NTgzLjkyfDQzLjA2fDMzMy45NQ==)'>
+<rect x='42.04' y='43.06' width='541.88' height='290.89' style='stroke-width: 1.26; stroke: none; fill: #FFFFFF;' />
+<line x1='42.04' y1='287.67' x2='583.92' y2='287.67' style='stroke-width: 0.85; stroke: #8C8C8C; stroke-dasharray: 4.55,4.55; stroke-linecap: butt;' />
+<polyline points='109.13,84.15 129.77,84.15 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='119.45,84.15 119.45,149.80 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='109.13,149.80 129.77,149.80 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='238.15,118.37 258.79,118.37 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='248.47,118.37 248.47,211.46 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='238.15,211.46 258.79,211.46 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='367.17,119.27 387.81,119.27 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='377.49,119.27 377.49,165.46 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='367.17,165.46 387.81,165.46 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='496.19,118.19 516.83,118.19 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='506.51,118.19 506.51,170.72 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='496.19,170.72 516.83,170.72 ' style='stroke-width: 1.49; stroke: #2C7FB8; stroke-linecap: butt;' />
+<polyline points='119.45,116.97 248.47,164.92 377.49,142.37 506.51,144.45 ' style='stroke-width: 1.71; stroke: #2C7FB8; stroke-linecap: butt;' />
+<circle cx='119.45' cy='116.97' r='3.41' style='stroke-width: 0.84; stroke: #2C7FB8; fill: #2C7FB8;' />
+<circle cx='248.47' cy='164.92' r='3.41' style='stroke-width: 0.84; stroke: #2C7FB8; fill: #2C7FB8;' />
+<circle cx='377.49' cy='142.37' r='3.41' style='stroke-width: 0.84; stroke: #2C7FB8; fill: #2C7FB8;' />
+<circle cx='506.51' cy='144.45' r='3.41' style='stroke-width: 0.84; stroke: #2C7FB8; fill: #2C7FB8;' />
+<text x='119.45' y='109.81' text-anchor='middle' style='font-size: 9.10px; font-weight: bold; font-family: "Arial";' textLength='22.78px' lengthAdjust='spacingAndGlyphs'>0.758</text>
+<text x='248.47' y='157.76' text-anchor='middle' style='font-size: 9.10px; font-weight: bold; font-family: "Arial";' textLength='22.78px' lengthAdjust='spacingAndGlyphs'>0.686</text>
+<text x='377.49' y='135.21' text-anchor='middle' style='font-size: 9.10px; font-weight: bold; font-family: "Arial";' textLength='22.78px' lengthAdjust='spacingAndGlyphs'>0.720</text>
+<text x='506.51' y='137.29' text-anchor='middle' style='font-size: 9.10px; font-weight: bold; font-family: "Arial";' textLength='22.78px' lengthAdjust='spacingAndGlyphs'>0.717</text>
+</g>
+<g clip-path='url(#cpMC4wMHw1OTAuNDB8MC4wMHwzODEuNjA=)'>
+<polyline points='42.04,333.95 42.04,43.06 ' style='stroke-width: 1.26; stroke-linecap: square;' />
+<text x='36.21' y='291.39' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>0.5</text>
+<text x='36.21' y='225.28' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>0.6</text>
+<text x='36.21' y='159.17' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>0.7</text>
+<text x='36.21' y='93.05' text-anchor='end' style='font-size: 10.40px; font-family: "Arial";' textLength='14.45px' lengthAdjust='spacingAndGlyphs'>0.8</text>
+<polyline points='38.80,287.67 42.04,287.67 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='38.80,221.56 42.04,221.56 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='38.80,155.45 42.04,155.45 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='38.80,89.34 42.04,89.34 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='42.04,333.95 583.92,333.95 ' style='stroke-width: 1.26; stroke-linecap: square;' />
+<polyline points='119.45,337.18 119.45,333.95 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='248.47,337.18 248.47,333.95 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='377.49,337.18 377.49,333.95 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<polyline points='506.51,337.18 506.51,333.95 ' style='stroke-width: 1.26; stroke-linecap: butt;' />
+<text x='119.45' y='346.94' text-anchor='middle' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='57.25px' lengthAdjust='spacingAndGlyphs'>Selected dN</text>
+<text x='119.45' y='357.74' text-anchor='middle' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='101.62px' lengthAdjust='spacingAndGlyphs'>HA × PB1 + PB2 + NA</text>
+<text x='248.47' y='346.94' text-anchor='middle' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='30.17px' lengthAdjust='spacingAndGlyphs'>HA dN</text>
+<text x='248.47' y='357.74' text-anchor='middle' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='20.56px' lengthAdjust='spacingAndGlyphs'>only</text>
+<text x='377.49' y='346.94' text-anchor='middle' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='28.89px' lengthAdjust='spacingAndGlyphs'>All dN</text>
+<text x='506.51' y='346.94' text-anchor='middle' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='28.89px' lengthAdjust='spacingAndGlyphs'>All dN</text>
+<text x='506.51' y='357.74' text-anchor='middle' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='35.31px' lengthAdjust='spacingAndGlyphs'>+ all dS</text>
+<text x='312.98' y='372.39' text-anchor='middle' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='197.73px' lengthAdjust='spacingAndGlyphs'>Target predictor feature scheme</text>
+<text transform='translate(15.79,188.50) rotate(-90)' text-anchor='middle' style='font-size: 13.00px; font-weight: bold; font-family: "Arial";' textLength='110.77px' lengthAdjust='spacingAndGlyphs'>Mean test AUROC</text>
+<text x='42.04' y='34.37' style='font-size: 10.50px; font-family: "Arial";' textLength='460.62px' lengthAdjust='spacingAndGlyphs'>Mean test AUROC averaged across GLMM, ML, and DNN architectures; logistic classifier excluded</text>
+<text x='42.04' y='17.22' style='font-size: 15.00px; font-weight: bold; font-family: "Arial";' textLength='388.56px' lengthAdjust='spacingAndGlyphs'>Performance scaling across genomic feature schemes</text>
+</g>
+</g>
+</svg>

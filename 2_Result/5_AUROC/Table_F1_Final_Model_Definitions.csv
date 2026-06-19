@@ -1,0 +1,5 @@
+"Model_Name","Model_Role","Formula","N_Fixed_Terms"
+"1_Final_Rolling_Best_dN_HA_x_PB1_plus_PB2_NA","Selected representative dN model","dom_binary ~ HA * PB1 + PB2 + NA_seg + (1 | vaccine_code)",5
+"2_HA_dN_Only","HA dN only baseline","dom_binary ~ HA + (1 | vaccine_code)",1
+"3_Control1_All_dN_PB2_to_NS","Control 1: all dN segments","dom_binary ~ PB2 + PB1 + PA + HA + NP + NA_seg + M + NS + (1 | vaccine_code)",8
+"4_Control2_All_dN_All_dS_PB2_to_NS","Control 2: all dN + all dS segments","dom_binary ~ PB2 + PB1 + PA + HA + NP + NA_seg + M + NS + PB2_syn + PB1_syn + PA_syn + HA_syn + NP_syn + NA_syn + M_syn + NS_syn + (1 | vaccine_code)",16

@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Large intermediate tree/object files
+*.rds
+*.RDS
+*.RData
+*.trees
+*.log
+
+# Large sequence/alignment files
+*.fasta
+*.fa
+*.fas
+*.nexus
+*.nwk
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Keep project folders
+!0_Script/
+!1_Data/
+!2_Result/
+!3_Figures/
+
+# Keep common manuscript/result files
+!*.R
+!*.Rmd
+!*.csv
+!*.tsv
+!*.txt
+!*.md
+!*.pdf
+!*.svg
+!*.png
+!*.jpg
+!*.jpeg
+!*.tiff
+!*.xlsx
+!*.docx

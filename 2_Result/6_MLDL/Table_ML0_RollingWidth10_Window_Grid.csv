@@ -1,0 +1,5 @@
+"Window_Scheme","Window_Type","Window_Size","Train_Start_Index","Train_End_Index","Test_Index","Train_Periods","Test_Period","Train_Range_Label"
+"rolling_width_10","rolling",10,1,10,11,"Mos99,Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17","HK19","Mos99-Kan17 -> HK19"
+"rolling_width_10","rolling",10,2,11,12,"Fuj02,Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19","Cam20","Fuj02-HK19 -> Cam20"
+"rolling_width_10","rolling",10,3,12,13,"Cal04,Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20","Dar21","Cal04-Cam20 -> Dar21"
+"rolling_width_10","rolling",10,4,13,14,"Wis05,Bris07,Prth09,Vic11,Swtz13,HK15,Kan17,HK19,Cam20,Dar21","TH22","Wis05-Dar21 -> TH22"

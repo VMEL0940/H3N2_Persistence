@@ -1,0 +1,4 @@
+"Model_Name","Model_Role","Formula","N_Splits","Mean_Delta_Test_AUC_vs_Selected","Median_Delta_Test_AUC_vs_Selected","N_Test_AUC_Wins_vs_Selected","N_Test_AUC_Losses_vs_Selected","Wilcoxon_p_Test_AUC_vs_Selected"
+"3_Control1_All_dN_PB2_to_NS","Control 1: all dN segments","dom_binary ~ PB2 + PB1 + PA + HA + NP + NA_seg + M + NS + (1 | vaccine_code)",4,-0.103157679738562,-0.0984722222222222,0,3,0.18144920772142
+"2_HA_dN_Only","HA dN only baseline","dom_binary ~ HA + (1 | vaccine_code)",4,-0.111580201525054,-0.031875,1,2,0.789268026134281
+"4_Control2_All_dN_All_dS_PB2_to_NS","Control 2: all dN + all dS segments","dom_binary ~ PB2 + PB1 + PA + HA + NP + NA_seg + M + NS + PB2_syn + PB1_syn + PA_syn + HA_syn + NP_syn + NA_syn + M_syn + NS_syn + (1 | vaccine_code)",4,-0.159229302832244,-0.0775,1,2,0.422678074170635

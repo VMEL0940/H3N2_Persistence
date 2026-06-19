@@ -1,0 +1,8 @@
+"Model","Error","Run_Status","n"
+"DNN",NA,"OK",16
+"Lasso",NA,"OK",16
+"Logistic",NA,"OK",16
+"RandomForest",NA,"OK",16
+"Ridge",NA,"OK",16
+"SVM_Radial",NA,"OK",16
+"XGBoost",NA,"OK",16

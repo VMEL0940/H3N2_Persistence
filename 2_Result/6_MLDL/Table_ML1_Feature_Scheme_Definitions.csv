@@ -1,0 +1,5 @@
+"Feature_Scheme","Predictors","N_Predictors"
+"1_Selected_dN_Final_HA_x_PB1_plus_PB2_NA","HA,PB1,PB2,NA_seg,HA_x_PB1",5
+"2_HA_dN_Only","HA",1
+"3_All_dN_PB2_to_NS","PB2,PB1,PA,HA,NP,NA_seg,M,NS",8
+"4_All_dN_All_dS_PB2_to_NS","PB2,PB1,PA,HA,NP,NA_seg,M,NS,PB2_syn,PB1_syn,PA_syn,HA_syn,NP_syn,NA_syn,M_syn,NS_syn",16
